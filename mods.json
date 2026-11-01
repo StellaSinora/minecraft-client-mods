@@ -1,0 +1,402 @@
+﻿{
+    "version":  1,
+    "name":  "ASthetic Client Mods",
+    "minecraft":  "1.20.1",
+    "loader":  "forge",
+    "updated":  "2026-11-01",
+    "modsFolder":  "%APPDATA%\\\\.minecraft\\\\mods",
+    "manifestUrl":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods.json",
+    "removeUnknownMods":  true,
+    "mods":  [
+                 {
+                     "file":  "3d_placeable_food-2.6.0-forge-1.20.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/3d_placeable_food-2.6.0-forge-1.20.1.jar",
+                     "size":  4995239,
+                     "sha256":  "b1236607b9d0a6a930990167f61b4e12965092df6e57024cb974f07935a752ce"
+                 },
+                 {
+                     "file":  "architectury-9.2.14-forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/architectury-9.2.14-forge.jar",
+                     "size":  580602,
+                     "sha256":  "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+                 },
+                 {
+                     "file":  "balm-forge-1.20.1-7.3.44.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/balm-forge-1.20.1-7.3.44.jar",
+                     "size":  561741,
+                     "sha256":  "ad11d968770bb1ce73377626b6f1dcd4ae6f8be1ef6f37cee9b872b8176aebd3"
+                 },
+                 {
+                     "file":  "bessentials-forge-1.1.2+1.20.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/bessentials-forge-1.1.2+1.20.1.jar",
+                     "size":  14789641,
+                     "sha256":  "6ddbdda8d5b06837a011850da8f572ce1632dae268e3341bdf04acbb96f550ac"
+                 },
+                 {
+                     "file":  "caelus-forge-3.2.0+1.20.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/caelus-forge-3.2.0+1.20.1.jar",
+                     "size":  40125,
+                     "sha256":  "37495445e79df8b30a3a038a0051f3c8aa8447f91a9d0aa0d20baef69dda9368"
+                 },
+                 {
+                     "file":  "carryon-forge-1.20.1-2.1.2.7.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/carryon-forge-1.20.1-2.1.2.7.jar",
+                     "size":  439457,
+                     "sha256":  "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
+                 },
+                 {
+                     "file":  "Clumps-forge-1.20.1-12.0.0.4.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/Clumps-forge-1.20.1-12.0.0.4.jar",
+                     "size":  20300,
+                     "sha256":  "8af01712c0dc32cebaff31795ca6d223fddff2ea9b1f5efbd9c3a586a0dacbc0"
+                 },
+                 {
+                     "file":  "connectedglass-1.1.14-forge-mc1.20.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/connectedglass-1.1.14-forge-mc1.20.1.jar",
+                     "size":  873714,
+                     "sha256":  "a00e37b978c6d73110157879373fe3e97784bbf0c8d4e5fc8dbd9f00e1113fc0"
+                 },
+                 {
+                     "file":  "create-1.20.1-6.0.8.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/create-1.20.1-6.0.8.jar",
+                     "size":  19170905,
+                     "sha256":  "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0"
+                 },
+                 {
+                     "file":  "curios-forge-5.14.1+1.20.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/curios-forge-5.14.1+1.20.1.jar",
+                     "size":  398066,
+                     "sha256":  "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
+                 },
+                 {
+                     "file":  "CustomSkinLoader_Universal-15.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/CustomSkinLoader_Universal-15.1.jar",
+                     "size":  222917,
+                     "sha256":  "c8769a38b3cc1da2a7b2f5827d1a53a24cd1ef6d0784b1eb545569f5882a2ffb"
+                 },
+                 {
+                     "file":  "deeperdarker-forge-1.20.1-1.3.3.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/deeperdarker-forge-1.20.1-1.3.3.jar",
+                     "size":  17844266,
+                     "sha256":  "d07dc6155e0b751c7d1ec26dabb7284a41798c85e48b0d809fd1254e489ed455"
+                 },
+                 {
+                     "file":  "delightlib-26.05.18-1.20-forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/delightlib-26.05.18-1.20-forge.jar",
+                     "size":  59764,
+                     "sha256":  "f968f47a0e60f0e6a60d2f4eba34bc3cd9c469516139ce93d36661a0acee8996"
+                 },
+                 {
+                     "file":  "dummmmmmy-1.20-2.0.12-forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/dummmmmmy-1.20-2.0.12-forge.jar",
+                     "size":  839685,
+                     "sha256":  "bd7f168ec56f14a25d36d9d0dc4d281e88f77b1ba678907b5c570e5c051a5ca4"
+                 },
+                 {
+                     "file":  "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+                     "size":  141744,
+                     "sha256":  "a08b641e6cc1d4867e0878826ac4fb9e55b45907d0fa3429172ecad8cd678ce9"
+                 },
+                 {
+                     "file":  "embeddium-0.3.31+mc1.20.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/embeddium-0.3.31+mc1.20.1.jar",
+                     "size":  1320675,
+                     "sha256":  "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
+                 },
+                 {
+                     "file":  "entityculling-forge-1.11.3-mc1.20.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/entityculling-forge-1.11.3-mc1.20.1.jar",
+                     "size":  1515076,
+                     "sha256":  "86de2a9fc6538bc26e71e5393ae72018eb9bb349a5dbaa0645fd194da5654b66"
+                 },
+                 {
+                     "file":  "Essential_1-5-1_forge_1-20-1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/Essential_1-5-1_forge_1-20-1.jar",
+                     "size":  51478847,
+                     "sha256":  "4d2933c9048ae41da2a6271a5121456200bd2325762588d71b54f33e37632ca6"
+                 },
+                 {
+                     "file":  "FallingTree-1.20.1-4.3.4.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/FallingTree-1.20.1-4.3.4.jar",
+                     "size":  420179,
+                     "sha256":  "5fb64717c368c2759e768873424a46ee5c40076600feadaac5403ca197aebe0f"
+                 },
+                 {
+                     "file":  "FarmersDelight-1.20.1-1.3.4.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/FarmersDelight-1.20.1-1.3.4.jar",
+                     "size":  3311051,
+                     "sha256":  "34f03eb671ea1ca579b00c98e4541404cb96d1a292014aed9cc5eb45ad8afbce"
+                 },
+                 {
+                     "file":  "ferritecore-6.0.1-forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/ferritecore-6.0.1-forge.jar",
+                     "size":  123034,
+                     "sha256":  "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
+                 },
+                 {
+                     "file":  "ftb-library-forge-2001.2.13.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/ftb-library-forge-2001.2.13.jar",
+                     "size":  780558,
+                     "sha256":  "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7"
+                 },
+                 {
+                     "file":  "ftb-quests-forge-2001.4.22.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/ftb-quests-forge-2001.4.22.jar",
+                     "size":  1255469,
+                     "sha256":  "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68"
+                 },
+                 {
+                     "file":  "ftb-teams-forge-2001.3.2.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/ftb-teams-forge-2001.3.2.jar",
+                     "size":  252579,
+                     "sha256":  "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07"
+                 },
+                 {
+                     "file":  "fusion-1.3.16-forge-mc1.20.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/fusion-1.3.16-forge-mc1.20.1.jar",
+                     "size":  972917,
+                     "sha256":  "a146fe1ccc05715b5e6e3d732c48fcb0ab1698b372e725c23d900b5efa46f349"
+                 },
+                 {
+                     "file":  "fzzy_config-0.7.7+1.20.1+forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/fzzy_config-0.7.7+1.20.1+forge.jar",
+                     "size":  2397175,
+                     "sha256":  "c4acf6fd3ce66ff28050dd9fdbff25c407f98a4911311ff3f59d651acccc9575"
+                 },
+                 {
+                     "file":  "geckolib-forge-1.20.1-4.8.4.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/geckolib-forge-1.20.1-4.8.4.jar",
+                     "size":  1038209,
+                     "sha256":  "c04abba4fd354dd8c0e8a732f1f05f4dca893d2e1d962b2ab128bbd411478747"
+                 },
+                 {
+                     "file":  "gravestone-forge-1.20.1-1.0.35.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/gravestone-forge-1.20.1-1.0.35.jar",
+                     "size":  317181,
+                     "sha256":  "3d31bd224bc1f9055c502cf675416ae8046dbc15bf2db6627e26a032da437e85"
+                 },
+                 {
+                     "file":  "immersive_paintings-0.6.13+1.20.1-forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/immersive_paintings-0.6.13+1.20.1-forge.jar",
+                     "size":  4856103,
+                     "sha256":  "069d5dffa4060d965899e607fad725c4d80a8086cef64f1d7563259b0a070633"
+                 },
+                 {
+                     "file":  "jei-1.20.1-forge-15.74.0.232.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/jei-1.20.1-forge-15.74.0.232.jar",
+                     "size":  4759629,
+                     "sha256":  "62d2856ba5cca459d1e7d051429f78278c9f99b7e25de4e51667ea95aee0f6a5"
+                 },
+                 {
+                     "file":  "kotlinforforge-4.12.0-all.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/kotlinforforge-4.12.0-all.jar",
+                     "size":  7442998,
+                     "sha256":  "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae"
+                 },
+                 {
+                     "file":  "L_Enders_Cataclysm-3.31.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/L_Enders_Cataclysm-3.31.jar",
+                     "size":  73916104,
+                     "sha256":  "c29dcf940168208517b72f2d9965828b106a6b94cbea55d5001558c69a27b362"
+                 },
+                 {
+                     "file":  "lionfishapi-3.0.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/lionfishapi-3.0.jar",
+                     "size":  101931,
+                     "sha256":  "d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871"
+                 },
+                 {
+                     "file":  "lootr-forge-1.20-0.7.35.94.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/lootr-forge-1.20-0.7.35.94.jar",
+                     "size":  463485,
+                     "sha256":  "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
+                 },
+                 {
+                     "file":  "LuckPerms-Forge-5.4.102.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/LuckPerms-Forge-5.4.102.jar",
+                     "size":  1398478,
+                     "sha256":  "935beff65a4d248880e004ccb5fc2f1cc5d63d3f24870ff8d472cbefa31016da"
+                 },
+                 {
+                     "file":  "MagnumTorch-v8.0.2-1.20.1-Forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/MagnumTorch-v8.0.2-1.20.1-Forge.jar",
+                     "size":  90965,
+                     "sha256":  "fa9df7fad29f50da46d5852d0ad06a0215d910ad2050da64b0996342a4489c63"
+                 },
+                 {
+                     "file":  "mcw-doors-1.1.5-mc1.20.1forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/mcw-doors-1.1.5-mc1.20.1forge.jar",
+                     "size":  1246753,
+                     "sha256":  "e975bdd5ed1d680e37fb2a6cda4f4eb5c42a837fa24b0cddabe7688df42c10af"
+                 },
+                 {
+                     "file":  "mcw-furniture-3.4.1-mc1.20.1forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/mcw-furniture-3.4.1-mc1.20.1forge.jar",
+                     "size":  2174615,
+                     "sha256":  "9f068315ac5ae7c4b76a6ac0679cde9be59d5cbf37488a477f13b95fe1cbc37d"
+                 },
+                 {
+                     "file":  "mcw-lights-1.1.5-mc1.20.1forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/mcw-lights-1.1.5-mc1.20.1forge.jar",
+                     "size":  547779,
+                     "sha256":  "174437555ff8b3938b5af8fa3f6efcc528fc101e90e35b89570323e4a3726f0a"
+                 },
+                 {
+                     "file":  "mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+                     "size":  708634,
+                     "sha256":  "10deb617769e9674a767a3991af4c46afd081b5de42cee326f71ef2700a14313"
+                 },
+                 {
+                     "file":  "mcw-mcwpaths-1.1.1-mc1.20.1forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/mcw-mcwpaths-1.1.1-mc1.20.1forge.jar",
+                     "size":  812573,
+                     "sha256":  "9a809897462ca11c1920748b0fdf4555f05ef3650db1bd82016906795d068c9f"
+                 },
+                 {
+                     "file":  "mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+                     "size":  1320692,
+                     "sha256":  "7674d829d5a38d91ca68061e087fded92e976e3e461edcf75117e37a257e8f10"
+                 },
+                 {
+                     "file":  "mcw-roofs-2.3.2-mc1.20.1forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/mcw-roofs-2.3.2-mc1.20.1forge.jar",
+                     "size":  1864023,
+                     "sha256":  "3554317ad8d082a3d9fb5d8b387f5206e545323b4387ed1b93b7b3bf889def3f"
+                 },
+                 {
+                     "file":  "modernfix-forge-5.27.91+mc1.20.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/modernfix-forge-5.27.91+mc1.20.1.jar",
+                     "size":  1012942,
+                     "sha256":  "b42fe87fd5ffa46f7db56c6cee01b08dea362baf4cc56a70db40d928773b5000"
+                 },
+                 {
+                     "file":  "moonlight-1.20-2.16.38B-forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/moonlight-1.20-2.16.38B-forge.jar",
+                     "size":  1425261,
+                     "sha256":  "9d8c290258a11edc6788992aba055b46791329e8ade5f8f209f28ecda2bacbcf"
+                 },
+                 {
+                     "file":  "moredelight-26.05.20-1.20-forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/moredelight-26.05.20-1.20-forge.jar",
+                     "size":  144021,
+                     "sha256":  "f3110c724a06b1a0537d87dd94ea4597ad89c75a3d3dadc9087d421f6624993f"
+                 },
+                 {
+                     "file":  "mowziesmobs-1.8.2.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/mowziesmobs-1.8.2.jar",
+                     "size":  36033850,
+                     "sha256":  "e8ce1768cda6f1e1fadd2321c92921b473bd0cee45ba4b8387fb30f8326cb31c"
+                 },
+                 {
+                     "file":  "open-parties-and-claims-forge-1.20.1-0.33.0.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/open-parties-and-claims-forge-1.20.1-0.33.0.jar",
+                     "size":  1906788,
+                     "sha256":  "dc9bac197864da55a76fd84ac5c5a5789afffcf7ea15a3831a08e651b0691e7b"
+                 },
+                 {
+                     "file":  "origins-forge-1.20.1-1.10.0.9-all.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/origins-forge-1.20.1-1.10.0.9-all.jar",
+                     "size":  2307868,
+                     "sha256":  "5244b8b4434cd1bb6f4ebb71a36008218e700ed3245c14f867b8dc5487137c64"
+                 },
+                 {
+                     "file":  "PuzzlesLib-v8.1.36-1.20.1-Forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/PuzzlesLib-v8.1.36-1.20.1-Forge.jar",
+                     "size":  1790007,
+                     "sha256":  "103f1d46c16023e346802a9b2024db885cf8dc3a43ee5106bcd5ed8165073efd"
+                 },
+                 {
+                     "file":  "Saros-Money-Mod-Forge-1.20.1-3.5.9.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/Saros-Money-Mod-Forge-1.20.1-3.5.9.jar",
+                     "size":  356331,
+                     "sha256":  "ba47725724d7497d8b2427fb442e9b6f5243b03de0a5e1ac806e939bfa8ee5da"
+                 },
+                 {
+                     "file":  "simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
+                     "size":  15765792,
+                     "sha256":  "642e385ffda914f1b9411f0a457fe5fb5e05aa160dc44392dec9a549c2bcec21"
+                 },
+                 {
+                     "file":  "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+                     "size":  5418741,
+                     "sha256":  "a50357b4982132522f48afc6fa625c453359390f8180e4c72f6288ecd46dee3c"
+                 },
+                 {
+                     "file":  "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+                     "size":  206584,
+                     "sha256":  "bea425ef7e9cd27a7fc0f4b89e00cbd0a1ee050f071ecaa9f28f7238f400f0a3"
+                 },
+                 {
+                     "file":  "supermartijn642corelib-1.1.26-forge-mc1.20.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/supermartijn642corelib-1.1.26-forge-mc1.20.1.jar",
+                     "size":  597952,
+                     "sha256":  "ae07498875f73c6b73d48c5812bb1cd155e76103fe6936dd0fd9fa22ce626ff4"
+                 },
+                 {
+                     "file":  "Terralith_1.20.x_v2.5.4.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/Terralith_1.20.x_v2.5.4.jar",
+                     "size":  3156901,
+                     "sha256":  "8f65f309d8f2723754bf4b60c7b5763d3ab6ed04b01c172109ba6564e981b95f"
+                 },
+                 {
+                     "file":  "tl_skin_cape_forge_1.20-1.38.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/tl_skin_cape_forge_1.20-1.38.jar",
+                     "size":  1180127,
+                     "sha256":  "a6aa1286aa847ff9b6029c8901bbad30e05b4bcbc967142125c35499dfe5f5d3"
+                 },
+                 {
+                     "file":  "travelersbackpack-forge-1.20.1-9.1.58.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/travelersbackpack-forge-1.20.1-9.1.58.jar",
+                     "size":  1435341,
+                     "sha256":  "90c4a7d36389c5ef6915fad6eb62c7bc5516a94dc1274dece89609c4f261f16e"
+                 },
+                 {
+                     "file":  "voicechat-forge-1.20.1-2.6.27.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/voicechat-forge-1.20.1-2.6.27.jar",
+                     "size":  4941878,
+                     "sha256":  "cda9ffd55a05a319a3150e58825914b280e63aff06f9601c88ec4fd700c1c834"
+                 },
+                 {
+                     "file":  "waystones-forge-1.20.1-14.1.21.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/waystones-forge-1.20.1-14.1.21.jar",
+                     "size":  536782,
+                     "sha256":  "fd6fe3c645328ea7be5bc6723d02c881e34650e0cbd4527ba59e42fa4cbe3c80"
+                 },
+                 {
+                     "file":  "xaerominimap-forge-1.20.1-26.6.0.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/xaerominimap-forge-1.20.1-26.6.0.jar",
+                     "size":  2196194,
+                     "sha256":  "9b39cd06094d7631c8614d172d0ba8399c71c981530af417f12a7909fcb855bd"
+                 },
+                 {
+                     "file":  "xaeroworldmap-forge-1.20.1-1.47.0.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/xaeroworldmap-forge-1.20.1-1.47.0.jar",
+                     "size":  1429424,
+                     "sha256":  "88c6d844163c95a94d92bc6d87d9011cc840bd6207c3099a81b113d4450a3f6b"
+                 },
+                 {
+                     "file":  "YungsApi-1.20-Forge-4.0.6.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/YungsApi-1.20-Forge-4.0.6.jar",
+                     "size":  370524,
+                     "sha256":  "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1"
+                 },
+                 {
+                     "file":  "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+                     "size":  792381,
+                     "sha256":  "93c24e4075c51da0866f3fc92322bdb60e590ac2cd78dce275460839c54c36f5"
+                 },
+                 {
+                     "file":  "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+                     "size":  473564,
+                     "sha256":  "054b0a1be86510ed6bd05de66a29200f13f5603c0c9eb7e62074ddc3d19cb0e4"
+                 }
+             ]
+}
