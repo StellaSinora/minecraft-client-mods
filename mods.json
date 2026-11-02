@@ -1,9 +1,9 @@
-﻿{
+{
     "version":  1,
     "name":  "ASthetic Client Mods",
     "minecraft":  "1.20.1",
     "loader":  "forge",
-    "updated":  "2026-11-01",
+    "updated":  "2026-11-02",
     "modsFolder":  "%APPDATA%\\\\.minecraft\\\\mods",
     "manifestUrl":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods.json",
     "removeUnknownMods":  true,
@@ -13,6 +13,12 @@
                      "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/3d_placeable_food-2.6.0-forge-1.20.1.jar",
                      "size":  4995239,
                      "sha256":  "b1236607b9d0a6a930990167f61b4e12965092df6e57024cb974f07935a752ce"
+                 },
+                 {
+                     "file":  "appleskin-forge-mc1.20.1-2.5.1.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+                     "size":  47428,
+                     "sha256":  "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
                  },
                  {
                      "file":  "architectury-9.2.14-forge.jar",
@@ -55,6 +61,12 @@
                      "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/connectedglass-1.1.14-forge-mc1.20.1.jar",
                      "size":  873714,
                      "sha256":  "a00e37b978c6d73110157879373fe3e97784bbf0c8d4e5fc8dbd9f00e1113fc0"
+                 },
+                 {
+                     "file":  "Controlling-forge-1.20.1-12.0.2.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/Controlling-forge-1.20.1-12.0.2.jar",
+                     "size":  115280,
+                     "sha256":  "516308a93824119f6a1ebc75425aa21ee8f8de0c331942793a054ba6d9c24944"
                  },
                  {
                      "file":  "create-1.20.1-6.0.8.jar",
@@ -177,10 +189,22 @@
                      "sha256":  "3d31bd224bc1f9055c502cf675416ae8046dbc15bf2db6627e26a032da437e85"
                  },
                  {
+                     "file":  "hardcorerevival-forge-1.20.1-20.1.19.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/hardcorerevival-forge-1.20.1-20.1.19.jar",
+                     "size":  243947,
+                     "sha256":  "5b8355559c394323f6810fb726de9be5d3f0ac6c316361aff838f8fde21576af"
+                 },
+                 {
                      "file":  "immersive_paintings-0.6.13+1.20.1-forge.jar",
                      "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/immersive_paintings-0.6.13+1.20.1-forge.jar",
                      "size":  4856103,
                      "sha256":  "069d5dffa4060d965899e607fad725c4d80a8086cef64f1d7563259b0a070633"
+                 },
+                 {
+                     "file":  "Jade-1.20.1-Forge-11.13.3.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/Jade-1.20.1-Forge-11.13.3.jar",
+                     "size":  553487,
+                     "sha256":  "a632c77975e5aedff6322b0072f8b0db3f5d4bf914df6bdcc87d1aea4d5f55f4"
                  },
                  {
                      "file":  "jei-1.20.1-forge-15.74.0.232.jar",
@@ -211,12 +235,6 @@
                      "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/lootr-forge-1.20-0.7.35.94.jar",
                      "size":  463485,
                      "sha256":  "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
-                 },
-                 {
-                     "file":  "LuckPerms-Forge-5.4.102.jar",
-                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/LuckPerms-Forge-5.4.102.jar",
-                     "size":  1398478,
-                     "sha256":  "935beff65a4d248880e004ccb5fc2f1cc5d63d3f24870ff8d472cbefa31016da"
                  },
                  {
                      "file":  "MagnumTorch-v8.0.2-1.20.1-Forge.jar",
@@ -325,6 +343,12 @@
                      "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/SimplyTooltips-forge-0.1.5-1.20.1.jar",
                      "size":  5418741,
                      "sha256":  "a50357b4982132522f48afc6fa625c453359390f8180e4c72f6288ecd46dee3c"
+                 },
+                 {
+                     "file":  "sound-physics-remastered-forge-1.20.1-1.4.10.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/sound-physics-remastered-forge-1.20.1-1.4.10.jar",
+                     "size":  203819,
+                     "sha256":  "57ce3c7d5abe724d9fb82f3d068b7717a56b94b7d3ea98f90a2f9ca61c8f57b1"
                  },
                  {
                      "file":  "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
