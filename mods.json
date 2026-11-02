@@ -285,6 +285,12 @@
                      "sha256":  "3554317ad8d082a3d9fb5d8b387f5206e545323b4387ed1b93b7b3bf889def3f"
                  },
                  {
+                     "file":  "MissingModsWarning-forge-1.20.1-0.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/MissingModsWarning-forge-1.20.1-0.jar",
+                     "size":  30409,
+                     "sha256":  "ccb4e881979bd5f74812888caa68b71575e5a050d1934b6891b37171555747a5"
+                 },
+                 {
                      "file":  "modernfix-forge-5.27.91+mc1.20.1.jar",
                      "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/modernfix-forge-5.27.91+mc1.20.1.jar",
                      "size":  1012942,
