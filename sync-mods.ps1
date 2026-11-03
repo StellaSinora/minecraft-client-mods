@@ -1,6 +1,8 @@
 param(
-  [Parameter(Mandatory = $true)][string]$ManifestUrl,
-  [Parameter(Mandatory = $true)][string]$ModsDir
+  [string]$ManifestUrl,
+  [string]$ManifestPath,
+  [Parameter(Mandatory = $true)][string]$ModsDir,
+  [switch]$InstallShaders
 )
 
 $ErrorActionPreference = "Stop"
@@ -22,12 +24,20 @@ try {
 
   $tempRoot = Join-Path $env:TEMP ("mc-mods-sync-" + [guid]::NewGuid().ToString("N"))
   New-Item -ItemType Directory -Path $tempRoot -Force | Out-Null
-  $manifestPath = Join-Path $tempRoot "mods.json"
 
-  Write-Step "Downloading mods.json..."
-  Invoke-WebRequest -Uri $ManifestUrl -OutFile $manifestPath -UseBasicParsing
-
-  $manifest = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
+  if ($ManifestPath) {
+    if (-not (Test-Path -LiteralPath $ManifestPath)) {
+      throw "mods.json not found: $ManifestPath"
+    }
+    Write-Step "Using local mods.json"
+    $manifest = Get-Content -LiteralPath $ManifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
+  } else {
+    if (-not $ManifestUrl) { throw "ManifestUrl or ManifestPath is required." }
+    $downloadedManifest = Join-Path $tempRoot "mods.json"
+    Write-Step "Downloading mods.json..."
+    Invoke-WebRequest -Uri $ManifestUrl -OutFile $downloadedManifest -UseBasicParsing
+    $manifest = Get-Content -LiteralPath $downloadedManifest -Raw -Encoding UTF8 | ConvertFrom-Json
+  }
   if (-not $manifest.mods -or $manifest.mods.Count -eq 0) {
     throw "mods.json has no mods list."
   }
@@ -39,6 +49,18 @@ try {
   }
 
   Write-Step ("Manifest loaded: {0} mods" -f $wanted.Count)
+
+  if ($InstallShaders) {
+    $shaderMods = @()
+    if ($manifest.shaders) { $shaderMods = @($manifest.shaders) }
+    foreach ($mod in $shaderMods) {
+      if (-not $mod.file -or -not $mod.url) { continue }
+      $wanted[$mod.file] = $mod
+    }
+    Write-Step "Shader: installing Oculus + Embeddium"
+  } else {
+    Write-Step "Shader skipped. Normal mods.json download."
+  }
 
   $removeUnknown = $true
   if ($null -ne $manifest.removeUnknownMods) {
@@ -88,6 +110,22 @@ try {
     }
 
     if (-not $needDownload) { continue }
+
+    $localSrc = Join-Path $PSScriptRoot ("mods\" + $name)
+    if (Test-Path -LiteralPath $localSrc) {
+      $localItem = Get-Item -LiteralPath $localSrc
+      $localSizeOk = (-not $mod.size) -or ([int64]$mod.size -eq $localItem.Length)
+      $localHashOk = $true
+      if ($mod.sha256) {
+        $localHashOk = ((Get-Sha256 $localSrc) -eq ([string]$mod.sha256).ToLower())
+      }
+      if ($localSizeOk -and $localHashOk) {
+        Copy-Item -LiteralPath $localSrc -Destination $target -Force
+        Write-Host ("  [{0}/{1}] COPY   {2}" -f $index, $total, $name)
+        $downloaded++
+        continue
+      }
+    }
 
     $tempFile = Join-Path $tempRoot $name
     Write-Host ("  [{0}/{1}] GET    {2}" -f $index, $total, $name)

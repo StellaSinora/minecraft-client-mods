@@ -3,7 +3,7 @@
     "name":  "ASthetic Client Mods",
     "minecraft":  "1.20.1",
     "loader":  "forge",
-    "updated":  "2026-11-02",
+    "updated":  "2026-11-03",
     "modsFolder":  "%APPDATA%\\\\.minecraft\\\\mods",
     "manifestUrl":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods.json",
     "removeUnknownMods":  true,
@@ -15,10 +15,34 @@
                      "sha256":  "b1236607b9d0a6a930990167f61b4e12965092df6e57024cb974f07935a752ce"
                  },
                  {
+                     "file":  "AdvancementPlaques-1.20.1-forge-1.6.9.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/AdvancementPlaques-1.20.1-forge-1.6.9.jar",
+                     "size":  208850,
+                     "sha256":  "537f84f1153369d61878965846a8ead7c5eae3a6ad917b04c02521ad76182ad2"
+                 },
+                 {
+                     "file":  "animalgarden-prairiedog-1.0.1-forge-1.20.1-47.4.10.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/animalgarden-prairiedog-1.0.1-forge-1.20.1-47.4.10.jar",
+                     "size":  157728,
+                     "sha256":  "9f03ad5986d3e70bf212a2b07d7b63ab3425b78317448b08b3d8d4d571bcfdbc"
+                 },
+                 {
+                     "file":  "animalgarden-redpanda-1.0.0-forge-1.20.1-47.4.9.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/animalgarden-redpanda-1.0.0-forge-1.20.1-47.4.9.jar",
+                     "size":  96212,
+                     "sha256":  "649420db847e070d1863c3a013438e88330f8399cc85022d51f4ef34a6890535"
+                 },
+                 {
                      "file":  "appleskin-forge-mc1.20.1-2.5.1.jar",
                      "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/appleskin-forge-mc1.20.1-2.5.1.jar",
                      "size":  47428,
                      "sha256":  "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
+                 },
+                 {
+                     "file":  "aquariuslibs-1.2.0-forge-1.20.1-47.4.10.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/aquariuslibs-1.2.0-forge-1.20.1-47.4.10.jar",
+                     "size":  237809,
+                     "sha256":  "3ffa7cee7f58caa2b0a657a4341b8859a9722ccaf01a0635d43f6fbb12ff00b1"
                  },
                  {
                      "file":  "architectury-9.2.14-forge.jar",
@@ -195,10 +219,22 @@
                      "sha256":  "5b8355559c394323f6810fb726de9be5d3f0ac6c316361aff838f8fde21576af"
                  },
                  {
+                     "file":  "Iceberg-1.20.1-forge-1.1.25.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/Iceberg-1.20.1-forge-1.1.25.jar",
+                     "size":  134551,
+                     "sha256":  "91ad6b459e0c7a16a9f3dc90230248a696600ceec6646aa23263559b8648dbc3"
+                 },
+                 {
                      "file":  "immersive_paintings-0.6.13+1.20.1-forge.jar",
                      "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/immersive_paintings-0.6.13+1.20.1-forge.jar",
                      "size":  4856103,
                      "sha256":  "069d5dffa4060d965899e607fad725c4d80a8086cef64f1d7563259b0a070633"
+                 },
+                 {
+                     "file":  "inventoryhud.forge.1.20.1-3.4.26.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/inventoryhud.forge.1.20.1-3.4.26.jar",
+                     "size":  238088,
+                     "sha256":  "01d9a2d1e26fffff78eb47f3e4837189e7567dde849810b1bf6d278520c1e971"
                  },
                  {
                      "file":  "Jade-1.20.1-Forge-11.13.3.jar",
@@ -225,6 +261,12 @@
                      "sha256":  "c29dcf940168208517b72f2d9965828b106a6b94cbea55d5001558c69a27b362"
                  },
                  {
+                     "file":  "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+                     "size":  55258,
+                     "sha256":  "15521ab414b92f60e75bdd49724eb65bb6aa8b3d6f72c157cc261011d58d625e"
+                 },
+                 {
                      "file":  "lionfishapi-3.0.jar",
                      "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/lionfishapi-3.0.jar",
                      "size":  101931,
@@ -237,16 +279,16 @@
                      "sha256":  "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
                  },
                  {
-                     "file":  "LuckPerms-Forge-5.4.103.jar",
-                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/LuckPerms-Forge-5.4.103.jar",
-                     "size":  1398547,
-                     "sha256":  "c1fb88f1ac42a98cdd18fabdcd512be3eb29a662d311d92b43b0a1ca4f4f6d0b"
-                 },
-                 {
                      "file":  "MagnumTorch-v8.0.2-1.20.1-Forge.jar",
                      "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/MagnumTorch-v8.0.2-1.20.1-Forge.jar",
                      "size":  90965,
                      "sha256":  "fa9df7fad29f50da46d5852d0ad06a0215d910ad2050da64b0996342a4489c63"
+                 },
+                 {
+                     "file":  "mcw-bridges-3.1.2-mc1.20.1forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/mcw-bridges-3.1.2-mc1.20.1forge.jar",
+                     "size":  693579,
+                     "sha256":  "95c5aae4e82758d5c0ca2ba61c4cf72e9240e53f68befe8104c68fa9f9b19eed"
                  },
                  {
                      "file":  "mcw-doors-1.1.5-mc1.20.1forge.jar",
@@ -277,6 +319,12 @@
                      "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/mcw-mcwpaths-1.1.1-mc1.20.1forge.jar",
                      "size":  812573,
                      "sha256":  "9a809897462ca11c1920748b0fdf4555f05ef3650db1bd82016906795d068c9f"
+                 },
+                 {
+                     "file":  "mcw-mcwstairs-1.0.2-mc1.20.1forge.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/mcw-mcwstairs-1.0.2-mc1.20.1forge.jar",
+                     "size":  554055,
+                     "sha256":  "c952bf7b9eec89071d05da79f73459565847c65187b2f342fa0933c46605bfea"
                  },
                  {
                      "file":  "mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
@@ -331,6 +379,12 @@
                      "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/origins-forge-1.20.1-1.10.0.9-all.jar",
                      "size":  2307868,
                      "sha256":  "5244b8b4434cd1bb6f4ebb71a36008218e700ed3245c14f867b8dc5487137c64"
+                 },
+                 {
+                     "file":  "Prism-1.20.1-forge-1.0.5.jar",
+                     "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/Prism-1.20.1-forge-1.0.5.jar",
+                     "size":  52205,
+                     "sha256":  "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240"
                  },
                  {
                      "file":  "PuzzlesLib-v8.1.36-1.20.1-Forge.jar",
@@ -440,5 +494,19 @@
                      "size":  473564,
                      "sha256":  "054b0a1be86510ed6bd05de66a29200f13f5603c0c9eb7e62074ddc3d19cb0e4"
                  }
-             ]
+             ],
+    "shaders":  [
+                    {
+                        "file":  "oculus-mc1.20.1-1.8.0.jar",
+                        "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/oculus-mc1.20.1-1.8.0.jar",
+                        "size":  2851119,
+                        "sha256":  "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef"
+                    },
+                    {
+                        "file":  "embeddium-0.3.31+mc1.20.1.jar",
+                        "url":  "https://raw.githubusercontent.com/StellaSinora/minecraft-client-mods/main/mods/embeddium-0.3.31+mc1.20.1.jar",
+                        "size":  1320675,
+                        "sha256":  "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
+                    }
+                ]
 }
