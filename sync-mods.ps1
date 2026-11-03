@@ -34,8 +34,12 @@ try {
   } else {
     if (-not $ManifestUrl) { throw "ManifestUrl or ManifestPath is required." }
     $downloadedManifest = Join-Path $tempRoot "mods.json"
+    $manifestRequest = $ManifestUrl
+    if ($manifestRequest -notmatch '\?') {
+      $manifestRequest = $manifestRequest + '?t=' + [DateTimeOffset]::UtcNow.ToUnixTimeSeconds()
+    }
     Write-Step "Downloading mods.json..."
-    Invoke-WebRequest -Uri $ManifestUrl -OutFile $downloadedManifest -UseBasicParsing
+    Invoke-WebRequest -Uri $manifestRequest -OutFile $downloadedManifest -UseBasicParsing
     $manifest = Get-Content -LiteralPath $downloadedManifest -Raw -Encoding UTF8 | ConvertFrom-Json
   }
   if (-not $manifest.mods -or $manifest.mods.Count -eq 0) {

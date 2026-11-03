@@ -16,13 +16,14 @@ echo  Manifest : %MANIFEST_URL%
 echo  Mods dir : %MODS_DIR%
 echo.
 
-REM Prefer local sync-mods.ps1 (repo copy); otherwise download from GitHub.
-if exist "%~dp0sync-mods.ps1" (
-  set "PS1=%~dp0sync-mods.ps1"
-) else (
-  echo  Downloading sync script...
-  powershell -NoProfile -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri '%SCRIPT_URL%' -OutFile '%PS1%' -UseBasicParsing"
-  if errorlevel 1 (
+REM Always take the published script so every client runs the same sync.
+echo  Downloading latest sync script...
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri '%SCRIPT_URL%?t=%RANDOM%%RANDOM%' -OutFile '%PS1%' -UseBasicParsing"
+if errorlevel 1 (
+  if exist "%~dp0sync-mods.ps1" (
+    echo  GitHub download failed. Using the script beside this bat.
+    set "PS1=%~dp0sync-mods.ps1"
+  ) else (
     echo  Failed to download sync-mods.ps1
     pause
     exit /b 1
@@ -41,11 +42,8 @@ if /I "%ANSWER%"=="Y" set "SHADER_ARG=-InstallShaders"
 if /I "%ANSWER%"=="YES" set "SHADER_ARG=-InstallShaders"
 echo.
 
-if exist "%~dp0mods.json" (
-  powershell -NoProfile -ExecutionPolicy Bypass -File "%PS1%" -ManifestPath "%~dp0mods.json" -ModsDir "%MODS_DIR%" %SHADER_ARG%
-) else (
-  powershell -NoProfile -ExecutionPolicy Bypass -File "%PS1%" -ManifestUrl "%MANIFEST_URL%" -ModsDir "%MODS_DIR%" %SHADER_ARG%
-)
+REM Always sync the published mods.json, not a copy saved beside this bat.
+powershell -NoProfile -ExecutionPolicy Bypass -File "%PS1%" -ManifestUrl "%MANIFEST_URL%" -ModsDir "%MODS_DIR%" %SHADER_ARG%
 set "ERR=%ERRORLEVEL%"
 
 echo.
